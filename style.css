@@ -1,0 +1,32 @@
+body {
+	position: relative;
+}
+.section {
+	margin: 20px;
+	padding: 10px;
+	padding-top: 60px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+	background-color: blue;
+}
+.section p {
+	background-color: cyan;
+}
+.countdown-wrapper {
+	text-align: center;
+}
+.countdown {
+	background-color: red;
+	display: inline-block;
+	width: auto;
+}
+.space-filler {
+	background-color: #bbbbbb;
+
+	height: 300px;
+}
+.space-filler p {
+	color: #dddddd;
+	text-align: center;
+}
