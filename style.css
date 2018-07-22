@@ -1,32 +1,130 @@
 body {
+	color: #000000;
+	font-family: 'Ubuntu', sans-serif;
+
 	position: relative;
 }
-.section {
-	margin: 20px;
-	padding: 10px;
-	padding-top: 60px;
-	padding-left: 30px;
-	padding-right: 30px;
 
-	background-color: blue;
-}
-.section p {
-	background-color: cyan;
-}
-.countdown-wrapper {
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 100px;
 	text-align: center;
 }
-.countdown {
-	background-color: red;
+
+p {
+	margin-bottom: 16px;
+}
+
+nav ul li a {
+	-webkit-transition-duration: 0.5s;
+
+	background-color: #ffffff !important;
+
+	color: #000000 !important;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	color: #00aa00 !important;
+
+	font-weight: bold;
+}
+
+.navbar, .navbar-brand, .navbar-brand:hover {
+	background-color: #ffffff !important;
+
+	color: #000000 !important;
+	font-weight: bold;
+}
+
+.navbar-fixed-top, .navbar-collapse {
+	border-width: 0px !important;
+}
+
+.navbar-toggle {
+	background-color: #000000 !important;
+}
+
+.navbar-nav {
+	display: table;
+}
+
+.navbar-nav li {
 	display: inline-block;
-	width: auto;
 }
-.space-filler {
-	background-color: #bbbbbb;
 
-	height: 300px;
+.active {
+	background-color: #ffffff;
+
+	color: #000000;
 }
-.space-filler p {
-	color: #dddddd;
+
+.section {
+	background-color: #0000aa;
+
+	margin: 0px;
+	padding: 20px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-top: 60px;
+}
+
+.section p {
+	background-color: #0000dd;
+}
+
+.clock-wrapper {
+	background-color: #dd0000;
+
 	text-align: center;
+
+	margin: auto;
+	max-width: 90%;
+	display: table;
+}
+
+.countdown {
+	display: inline-block;
+}
+
+.document-button {
+	-webkit-transition-duration: 0.5s;
+
+	background-color: #aaaaaa;
+
+	color: #ffffff;
+	font-weight: bold;
+
+	padding: 10px;
+}
+
+.document-button:hover {
+	background-color: #dddddd;
+
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.space-filler {
+	background-color: #aaaaaa;
+
+	display: table;
+	height: 300px;
+	width: 100%;
+}
+
+.space-filler p {
+	background-color: #dddddd;
+
+	font-weight: bold;
+	text-align: center;
+
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#main {
+	background-color: #aa0000;
 }
