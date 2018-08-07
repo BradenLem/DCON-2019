@@ -1,6 +1,7 @@
 body {
 	color: #000000;
 	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
 
 	position: relative;
 }
@@ -8,11 +9,19 @@ body {
 h1 {
 	font-size: 50px;
 	font-weight: bold;
-	line-height: 100px;
+	line-height: 60px;
 	text-align: center;
 }
 
+h2 {
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
 p {
+	text-align: justify;
+	
 	margin-bottom: 16px;
 }
 
@@ -60,26 +69,12 @@ nav ul li a:hover {
 	color: #000000;
 }
 
-.section {
-	background-color: #0000aa;
-
-	margin: 0px;
-	padding: 20px;
-	padding-left: 90px;
-	padding-right: 90px;
-	padding-top: 60px;
-}
-
-.section p {
-	background-color: #0000dd;
-}
-
 .clock-wrapper {
-	background-color: #dd0000;
-
 	text-align: center;
 
 	margin: auto;
+	margin-top: 90px;
+	margin-bottom: 70px;
 	max-width: 90%;
 	display: table;
 }
@@ -107,8 +102,28 @@ nav ul li a:hover {
 	text-decoration: none;
 }
 
+.faq-question {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.faq-answer {
+	margin-left: 20px;
+}
+
+.section {
+	background-color: #0034da;
+
+	margin: 0px;
+	padding: 20px;
+	padding-bottom: 30px;
+	padding-left: 90px;
+	padding-right: 90px;
+	
+}
+
 .space-filler {
-	background-color: #aaaaaa;
+	background-color: #888888;
 
 	display: table;
 	height: 300px;
@@ -116,8 +131,6 @@ nav ul li a:hover {
 }
 
 .space-filler p {
-	background-color: #dddddd;
-
 	font-weight: bold;
 	text-align: center;
 
@@ -126,5 +139,23 @@ nav ul li a:hover {
 }
 
 #main {
-	background-color: #aa0000;
+	background-color: #ed5d47;
+	
+	padding-top: 60px;
+}
+
+#announcements {
+	background-color: #72c176;
+}
+
+#documents {
+	background-color: #7c98d6;
+}
+
+#faq {
+	background-color: #b991bf;
+}
+
+#committee {
+	background-color: #aaa292;
 }
