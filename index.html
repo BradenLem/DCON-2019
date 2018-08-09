@@ -7,16 +7,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CNH Circle K’s District Convention 2019</title>
 
-	<link rel="stylesheet" href="flipclock.css">
+	<link rel="stylesheet" href="assets/css/flipclock.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="main.js" defer></script>
-	<script src="flipclock.min.js" defer></script>
+	<script src="assets/js/main.js" defer></script>
+	<script src="assets/js/flipclock.min.js" defer></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -99,12 +99,25 @@
 <div class="section" id="faq">
 	<h2>Frequently Asked Questions</h2>
 
-	<p class="faq-question">Why does Andy have bread loaves for shoes?</p>
-	<p class="faq-answer">Because he's weird. But then again, he has a very spiffy sense of fashion. Watch for him, everyone.</p>
-	<p class="faq-question">Why is Andy so hostile towards FTC?</p>
-	<p class="faq-answer">Because he's the DCON chair, which makes sense to some extent. Just make sure to avoid wearing an FTC t-shirt of any kind in his presence. He will go wild. Even if it's a photo of one.</p>
-	<p class="faq-question">Who is the most beautiful member on DCON Committee?</p>
-	<p class="faq-answer">Good question. It probably isn't Andy Nguyen.</p>
+	<button class="faq-question">Why does Andy have bread loaves for shoes?</button>
+	<div class="faq-answer">
+		<p>Because he's weird. But then again, he has a very spiffy sense of fashion. Watch for him, everyone.</p>
+	</div>
+	
+	<button class="faq-question">Why is Andy so hostile towards FTC?</button>
+	<div class="faq-answer">
+		<p>Because he's the DCON chair, which makes sense to some extent. Just make sure to avoid wearing an FTC t-shirt of any kind in his presence. He will go wild. Even if it's a photo of one.</p>
+	</div>
+	
+	<button class="faq-question">Who is the most beautiful member on DCON Committee?</button>
+	<div class="faq-answer">
+		<p>Good question. It probably isn't Andy Nguyen. Also, don't you think the concept of beauty is rather subjective?</p>
+	</div>
+	
+	<button class="faq-question">When will the DCON 2019 website be published for everyone to view?</button>
+	<div class="faq-answer">
+		<p>Ideally, the website's layout and design will be ready to go by the beginning of fall, or at the latest, by FTC. DCON is to be announced officially after FTC and advertised then, so the website is expected to be ready for that.</br>If you have any concerns about the website not being ready yet, let Braden know because this is a lot to handle as of right now. Kinda.</p>
+	</div>
 </div>
 
 <div class="section space-filler">
@@ -123,6 +136,10 @@
 
 <div class="section space-filler">
 	<p>SPACE FILLER</p>
+	<a class="animal-sound" onclick="document.getElementById('pig-sfx').play()">
+		<img src="assets/img/animals/pig-face_1f437.png">
+	</a>
+	<audio id="pig-sfx" src="assets/sfx/pig-squeal.mp3" type="audio/mp3"></audio>
 </div>
 
 </body>
