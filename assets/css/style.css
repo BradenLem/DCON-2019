@@ -189,6 +189,8 @@ p {
 .space-filler {
 	background-color: #888888;
 
+	text-align: center;
+	
 	display: table;
 	height: 300px;
 	width: 100%;
