@@ -78,18 +78,25 @@ p {
 	display: inline-block;
 }
 
-.clock-wrapper {
-	text-align: center;
+.flip-clock-label {
+	font-size: 0;
+}
 
+.countdown {
 	margin: auto;
 	margin-top: 90px;
-	margin-bottom: 70px;
+	margin-bottom: 80px;
 	max-width: 90%;
 	display: table;
 }
 
-.countdown {
+.flip-clock-wrapper {
+	text-align: center;
+}
+
+.flip-clock-wrapper ul, .flip-clock-wrapper span {
 	display: inline-block;
+	float: none;
 }
 
 .document-button {
