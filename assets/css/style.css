@@ -25,11 +25,20 @@ p {
 	margin-bottom: 16px;
 }
 
+.navbar {
+	min-height: 100px;
+	background: url("../img/black-stripes.png") no-repeat bottom;
+	background-size: 100%;
+}
+
 .navbar-inverse .navbar-nav>li>a {
 	-webkit-transition-duration: 0.3s;
 
-	background-color: #ffffff !important;
-
+	background-color: Transparent !important;
+	
+	padding-top: 35px;
+	padding-bottom: 35px;
+	
 	color: #000000 !important;
 	font-weight: bold;
 }
@@ -47,8 +56,17 @@ p {
 	font-weight: bold;
 }
 
+.navbar-brand {
+	padding: 8px;
+	height: 90px;
+}
+
 .navbar-fixed-top, .navbar-collapse {
 	border-width: 0px !important;
+}
+
+.navbar-collapse.collapse {
+	height: 100px !important;
 }
 
 .navbar-toggle {
@@ -149,7 +167,7 @@ p {
 #main {
 	background-color: #ed5d47;
 	
-	padding-top: 80px;
+	padding-top: 150px;
 }
 
 #announcements {
