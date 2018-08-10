@@ -26,7 +26,7 @@ p {
 }
 
 .navbar {
-	min-height: 100px;
+	min-height: 80px;
 	background: url("../img/black-stripes.png") no-repeat bottom;
 	background-size: 100%;
 }
@@ -36,8 +36,8 @@ p {
 
 	background-color: Transparent !important;
 	
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 26px;
+	padding-bottom: 26px;
 	
 	color: #000000 !important;
 	font-weight: bold;
@@ -58,15 +58,12 @@ p {
 
 .navbar-brand {
 	padding: 8px;
-	height: 90px;
+	height: 70px;
 }
 
 .navbar-fixed-top, .navbar-collapse {
 	border-width: 0px !important;
-}
-
-.navbar-collapse.collapse {
-	height: 100px !important;
+	text-align: center;
 }
 
 .navbar-toggle {
@@ -189,8 +186,6 @@ p {
 .space-filler {
 	background-color: #888888;
 
-	text-align: center;
-	
 	display: table;
 	height: 300px;
 	width: 100%;
