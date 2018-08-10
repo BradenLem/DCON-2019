@@ -21,7 +21,7 @@ $(document).ready(function() {
 		e.preventDefault();
 
 		var navOffset;
-		navOffset = 50;
+		navOffset = 100;
 
 		$('html, body').animate({
 			
