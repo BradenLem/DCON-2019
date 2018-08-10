@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	// Run countdown clock
 	var currentDate = new Date();
-	var futureDate = new Date(2019, 0, 1);
+	var futureDate = new Date(2019, 2, 22);
 
 	var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 
