@@ -31,12 +31,12 @@ $(document).ready(function() {
 	});
 	
 	// FAQ accordion transitions
-	var acc = document.getElementsByClassName("faq-question");
+	var acc1 = document.getElementsByClassName("faq-question");
 	var i;
 
-	for (i = 0; i < acc.length; i++) {
+	for (i = 0; i < acc1.length; i++) {
 		
-		acc[i].addEventListener("click", function() {
+		acc1[i].addEventListener("click", function() {
 		
 		// this.classList.toggle("active");
 		
@@ -46,6 +46,27 @@ $(document).ready(function() {
 		}
 		else {
 			answer.style.maxHeight = answer.scrollHeight + "px";
+		} 
+		});
+  
+	}
+	
+	// Documents accordion transitions
+	var acc2 = document.getElementsByClassName("documents-tab");
+	var j;
+
+	for (j = 0; j < acc2.length; j++) {
+		
+		acc2[j].addEventListener("click", function() {
+		
+		// this.classList.toggle("active");
+		
+		var list = this.nextElementSibling;
+		if (list.style.maxHeight) {
+			list.style.maxHeight = null;
+		}
+		else {
+			list.style.maxHeight = list.scrollHeight + "px";
 		} 
 		});
   
