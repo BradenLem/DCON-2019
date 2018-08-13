@@ -1,3 +1,4 @@
+/* General element formatting */
 body {
 	color: #000000;
 	font-family: 'Ubuntu', sans-serif;
@@ -17,6 +18,8 @@ h2 {
 	font-size: 32px;
 	font-weight: bold;
 	line-height: 55px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 p {
@@ -25,6 +28,8 @@ p {
 	margin-bottom: 16px;
 }
 
+
+/* ScrollSpy formatting */
 .navbar {
 	min-height: 80px;
 	background: url("../img/black-stripes.png") no-repeat bottom;
@@ -78,6 +83,7 @@ p {
 	display: inline-block;
 }
 
+/* FlipClock formatting */
 .flip-clock-label {
 	font-size: 0;
 }
@@ -99,6 +105,43 @@ p {
 	float: none;
 }
 
+/* Accordion layouts */
+.documents-tab {
+	-webkit-transition-duration: 0.3s;
+	
+	background-color: Transparent;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 5px;
+	outline: none;
+	
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+	font-size: 20px;
+	font-weight: bold;
+	
+	display: inline-block;
+}
+
+.documents-tab:hover {
+	cursor: pointer;
+	
+	color: #ffffff;
+}
+
+.documents-list {
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease-out;
+}
+
 .document-button {
 	-webkit-transition-duration: 0.3s;
 
@@ -107,6 +150,8 @@ p {
 	color: #ffffff;
 	font-weight: bold;
 
+	display: block;
+	margin-bottom: 10px;
 	padding: 10px;
 }
 
@@ -157,55 +202,7 @@ p {
 	margin-bottom: 5px;
 }
 
-.section {
-	background-color: #0034da;
-
-	margin: 0px;
-	padding: 20px;
-	padding-bottom: 30px;
-	padding-left: 80px;
-	padding-right: 80px;
-	
-}
-
-#main {
-	background-color: #ed5d47;
-	
-	padding-top: 150px;
-}
-
-#announcements {
-	background-color: #72c176;
-}
-
-#documents {
-	background-color: #7c98d6;
-}
-
-#faq {
-	background-color: #b991bf;
-}
-
-#committee {
-	background-color: #aaa292;
-}
-
-.space-filler {
-	background-color: #888888;
-
-	display: table;
-	height: 300px;
-	width: 100%;
-}
-
-.space-filler p {
-	font-weight: bold;
-	text-align: center;
-
-	display: table-cell;
-	vertical-align: middle;
-}
-
+/* Decorative elements */
 .animal-sound {
 	transition: transform 0.3s;
 	
@@ -229,4 +226,77 @@ p {
 
 .animal-sound:active {
 	transform: scale(0.90);
+}
+
+/* Organizational divs */
+.section {
+	background-color: #0034da;
+
+	margin: 0px;
+	padding: 20px;
+	padding-bottom: 30px;
+	padding-left: 80px;
+	padding-right: 80px;
+	
+	width: 100%;
+}
+
+.half-column {
+	display: inline-block;
+	box-sizing: border-box;
+	
+	text-align: center;
+	
+	width: 50%;
+	min-width: 300px;
+	
+	vertical-align: top;
+}
+
+.space-filler {
+	background-color: #888888;
+
+	text-align: center;
+	
+	display: table;
+	height: 300px;
+	width: 100%;
+}
+
+.space-filler p {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* IDs used for sections */
+#main {
+	background-color: #ed5d47;
+	
+	padding-top: 150px;
+}
+
+#announcements {
+	background-color: #72c176;
+}
+
+#timeline {
+	background-color: #f9d55e;
+}
+
+#documents {
+	background-color: #7c98d6;
+	
+	text-align: center;
+}
+
+#faq {
+	background-color: #b991bf;
+}
+
+#committee {
+	background-color: #aaa292;
 }
