@@ -21,55 +21,16 @@ $(document).ready(function() {
 		e.preventDefault();
 
 		var navOffset;
-		navOffset = 80;
+		navOffset = 75;
 
 		$('html, body').animate({
 			
 			scrollTop: $(target).offset().top - navOffset
-			}, 600);
+			}, 500);
 
 	});
 	
-	// FAQ accordion transitions
-	var acc1 = document.getElementsByClassName("faq-question");
-	var i;
-
-	for (i = 0; i < acc1.length; i++) {
-		
-		acc1[i].addEventListener("click", function() {
-		
-		// this.classList.toggle("active");
-		
-		var answer = this.nextElementSibling;
-		if (answer.style.maxHeight) {
-			answer.style.maxHeight = null;
-		}
-		else {
-			answer.style.maxHeight = answer.scrollHeight + "px";
-		} 
-		});
-  
-	}
-	
-	// Documents accordion transitions
-	var acc2 = document.getElementsByClassName("documents-tab");
-	var j;
-
-	for (j = 0; j < acc2.length; j++) {
-		
-		acc2[j].addEventListener("click", function() {
-		
-		// this.classList.toggle("active");
-		
-		var list = this.nextElementSibling;
-		if (list.style.maxHeight) {
-			list.style.maxHeight = null;
-		}
-		else {
-			list.style.maxHeight = list.scrollHeight + "px";
-		} 
-		});
-  
-	}
+	// Tooltips toggle
+	$('[data-toggle="popover"]').popover();
 
 });
