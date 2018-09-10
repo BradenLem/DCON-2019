@@ -32,5 +32,10 @@ $(document).ready(function() {
 	
 	// Tooltips toggle
 	$('[data-toggle="popover"]').popover();
+	
+	// Carousel initiate
+	$('.carousel').carousel({
+		interval: 5000
+	})
 
 });
