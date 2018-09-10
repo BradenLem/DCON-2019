@@ -110,6 +110,68 @@ div.content {
 	float: none;
 }
 
+/* Carousel formatting */
+.carousel {
+	position: relative;
+	
+	margin-top: 30px;
+}
+
+.carousel-indicators>li {
+	border: 2px solid #888888;
+	border-radius: 10px;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.caption-center {	
+	position: absolute;
+	top: 50%;
+	bottom: initial;
+	left: 15%;
+	right: 15%;
+	transform: translateY(-50%);
+}
+
+.caption-center>h3, .caption-center>p {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+.carousel-control {
+	-webkit-transition-duration: 0.3s;
+	
+	text-align: center;
+	
+	opacity: 0.5;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 10%;
+}
+
+.carousel-control:hover {
+	opacity: 1;
+}
+
+.carousel-control.left {
+	background-image: linear-gradient(to right,rgba(0,0,0,.2) 0,rgba(0,0,0,.0001) 100%);
+}
+
+.carousel-control.right {
+	background-image: linear-gradient(to left,rgba(0,0,0,.2) 0,rgba(0,0,0,.0001) 100%);
+	
+	right: 0;
+}
+
 /* Document buttons */
 .documents-list {
 	border: 1px solid black;
@@ -150,6 +212,8 @@ div.content {
 	
 	border: 1px solid #000;
 	border-radius: 4px;
+	
+	margin-bottom: 10px;
 }
 
 #faq-question {
@@ -164,7 +228,7 @@ div.content {
 	padding-bottom: 16px;
 	
 	width: 100%;
-	white-space:normal;
+	white-space: normal;
 	
 	color: #000;
 	font-size: 20px;
