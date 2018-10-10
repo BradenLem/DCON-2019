@@ -315,6 +315,22 @@ div.content {
 	vertical-align: top;
 }
 
+.qtr-column {
+	display: inline-block;
+	box-sizing: border-box;
+	
+	text-align: center;
+	
+	width: 25%;
+	min-width: 200px;
+	
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	vertical-align: top;
+}
+
 .space-filler {
 	background-color: #888888;
 
@@ -361,4 +377,6 @@ div.content {
 
 #committee {
 	background-color: #aaa292;
+	
+	text-align: center;
 }
