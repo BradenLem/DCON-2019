@@ -8,10 +8,11 @@ body {
 }
 
 h1 {
-	font-size: 56px;
-	font-weight: bold;
-	line-height: 60px;
+	font-size: 100px;
+	line-height: 90px;
 	text-align: center;
+	
+	font-family: 'Grand Hotel', cursive;
 }
 
 h2 {
@@ -31,13 +32,15 @@ p {
 div.content {
 	max-width: 960px;
 	margin: 0 auto;
+	
+	padding: 20px 40px 30px 40px;
 }
 
 
 /* ScrollSpy formatting */
 .navbar {
 	min-height: 80px;
-	background: url("../img/black-stripes.png") no-repeat bottom;
+	background: url("../img/red-stripes.png") no-repeat bottom;
 	background-size: 100%;
 }
 
@@ -195,6 +198,8 @@ div.content {
 	display: block;
 	margin-bottom: 10px;
 	padding: 10px;
+	
+	border-radius: 16px;
 }
 
 .document-button:hover {
@@ -203,6 +208,13 @@ div.content {
 	color: #ffffff;
 	font-weight: bold;
 	text-decoration: none;
+}
+
+.document-button p {
+	font-size: 12px;
+	font-weight: normal;
+	
+	margin: 10px 10px 0 10px;
 }
 
 /* Card/Collapse elements */
@@ -291,8 +303,7 @@ div.content {
 	background-color: #0034da;
 
 	margin: 0px;
-	padding: 20px;
-	padding-bottom: 30px;
+	
 	padding-left: 50px;
 	padding-right: 50px;
 	
@@ -337,7 +348,7 @@ div.content {
 	text-align: center;
 	
 	display: table;
-	height: 300px;
+	height: 48px;
 	width: 100%;
 }
 
@@ -352,31 +363,67 @@ div.content {
 
 /* IDs used for sections */
 #main {
+	background-image: url(../img/animals/cow-emoji.png);
+	background-repeat: repeat;
+	background-color: white;
+}
+
+#main-body {
 	background-color: #ed5d47;
 	
 	padding-top: 150px;
 }
 
 #announcements {
+	background-image: url(../img/animals/cow-emoji.png);
+	background-repeat: repeat;
+	background-color: white;
+}
+
+#announcements-body {
 	background-color: #72c176;
 }
 
 #timeline {
+	background-image: url(../img/animals/cow-emoji.png);
+	background-repeat: repeat;
+	background-color: white;
+}
+
+#timeline-body {
 	background-color: #f9d55e;
 }
 
 #documents {
-	background-color: #7c98d6;
+	background-image: url(../img/animals/cow-emoji.png);
+	background-repeat: repeat;
+	background-color: white;
 	
 	text-align: center;
 }
 
+#documents-body {
+	background-color: #7c98d6;
+}
+
 #faq {
+	background-image: url(../img/animals/cow-emoji.png);
+	background-repeat: repeat;
+	background-color: white;
+}
+
+#faq-body {
 	background-color: #b991bf;
 }
 
 #committee {
-	background-color: #aaa292;
+	background-image: url(../img/animals/cow-emoji.png);
+	background-repeat: repeat;
+	background-color: white;
 	
 	text-align: center;
+}
+
+#committee-body {
+	background-color: #aaa292;
 }
