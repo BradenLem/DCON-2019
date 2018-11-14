@@ -1,5 +1,17 @@
 $(document).ready(function() {
 
+	// Change CSS based on time of day
+	/*
+	var href;
+	if (7 <= currentTime && currentTime < 20) {
+		href = "style-day.css";
+	}
+	else {
+		href = "style-night.css";
+	}
+	if (document.body) {document.getElementById('time-change').href = href;}
+	*/
+
 	// Run countdown clock
 	var currentDate = new Date();
 	var futureDate = new Date(2019, 2, 22);
