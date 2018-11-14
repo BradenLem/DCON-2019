@@ -9,9 +9,10 @@
 
 	<link rel="stylesheet" href="assets/css/flipclock.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link id="time-change" rel="stylesheet" href="assets/css/style.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -51,18 +52,14 @@
 </nav>
 
 <div class="section" id="main">
-	<div class="content">
+	<div class="content" id="main-body">
 	
-	<h1>Welcome to District Convention 2019!</h1>
+	<h1>Welcome to</br>District Convention 2019!</h1>
 
 	<div class="countdown">	</div>
 	
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel sem sollicitudin, finibus ligula placerat, viverra eros. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur elit in sapien volutpat, vel sollicitudin mauris pellentesque. Aenean euismod facilisis pretium. Duis scelerisque, ipsum eu tincidunt malesuada, lectus erat sollicitudin ante, id varius eros quam eget enim. Donec viverra enim sit amet commodo pellentesque. Aenean eget risus rutrum, egestas dolor a, iaculis turpis. Praesent mauris sapien, pretium eu euismod at, auctor auctor lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam a accumsan dui. Praesent nisi lorem, pulvinar at finibus non, faucibus dapibus velit. Cras urna risus, volutpat condimentum euismod a, blandit eget enim.</br>
-		</br>
-		Duis ultrices elementum nibh, sit amet auctor leo tincidunt nec. Aenean aliquet efficitur sodales. In eget suscipit tellus. Cras vestibulum lobortis diam, a vehicula erat congue et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec orci a odio porta placerat blandit in sapien. Pellentesque pharetra a nibh eget accumsan. Nulla posuere sollicitudin lectus, et sagittis purus consectetur non. Maecenas vitae porttitor ligula, eu egestas nisl. Nulla sed lorem enim. Donec et gravida dui. Praesent id massa non lorem interdum tincidunt ac ut turpis. Suspendisse semper turpis mi, cursus dictum diam interdum eu. Sed ut quam vitae ipsum pharetra faucibus.</br>
-		</br>
-		Mauris eu molestie enim. Etiam aliquet nisi sit amet metus ullamcorper, in pretium dui venenatis. Praesent purus turpis, fermentum ut dictum vitae, convallis et sapien. Donec quis massa efficitur, fermentum odio nec, lacinia turpis. Proin vulputate ligula et risus dictum, ut facilisis nibh sagittis. Suspendisse vel laoreet nibh. Etiam ullamcorper tortor nec nibh interdum dignissim. Integer auctor orci sed placerat efficitur. Proin vehicula rutrum arcu, ut eleifend risus luctus eget. Mauris accumsan cursus varius.
+		Each year the California- Nevada-Hawai'i District of Circle K International hosts an event called District Convention. Here, clubs from all over the three states come together to celebrate the three tenets that our organization follows: Service, Leadership, and Fellowship. Members can develop themselves as student leaders and professionals through the many workshops we provide and our professional exposition, participate in our on-site service project, and network with people from all different backgrounds. We also use District Convention as a time to celebrate our achievements throughout the term and elect our future leaders. No matter what you're in the market for, District Convention can provide you with a wide range of experiences. Join us at our 65th Annual CNH District Convention at the Riverside Convention Center from March 22nd–24th, 2019.
 	</p>
 	
 	</div>
@@ -73,7 +70,7 @@
 </div>
 
 <div class="section" id="announcements">
-	<div class="content">
+	<div class="content" id="announcements-body">
 	
 	<h2>Announcements</h2>
 
@@ -130,7 +127,7 @@
 </div>
 
 <div class="section" id="timeline">
-	<div class="content">
+	<div class="content" id="timeline-body">
 	
 	<h2>Timeline</h2>
 	
@@ -142,7 +139,7 @@
 </div>
 
 <div class="section" id="documents">
-	<div class="content">
+	<div class="content" id="documents-body">
 	
 	<h2>Documents</h2>
 	
@@ -152,9 +149,27 @@
 		</button>
 		<div class="collapse" id="collapseDoc1">
 			<div class="documents-list">
-				<a class="document-button" href="#">DOWNLOAD SOMETHING?</a>
-				<a class="document-button" href="#">DOWNLOAD SOMETHING?</a>
-				<a class="document-button" href="#">DOWNLOAD SOMETHING?</a>
+				<a class="document-button" href="#">
+					DCON REGISTRATION FORM
+				</a>
+				<a class="document-button" href="#">
+					REGISTRATION GUIDE
+				</a>
+				<a class="document-button" href="#">
+					HOTEL REGISTRATION
+				</a>
+				<a class="document-button" href="#">
+					WAIVER + ATTENDEE AGREEMENT
+					<p>
+						All registered attendees must have carefully read and signed both the Attendee Agreement and the Release of Liability (waiver) contained in this document to remove any and all liability from Circle K International and other Kiwanis Family affiliations and to acknowledge and agree to the terms, conditions, and expectations for DCON participation.
+					</p>
+				</a>
+				<a class="document-button" href="#">
+					CODE OF CONDUCT + DRESS CODE
+					<p>
+						This year's Code of Conduct and Dress Code will be an acknowledgement of all rules expressed in this document for DCON participation.
+					</p>
+				</a>
 			</div>
 		</div>
 	</div><div class="half-column">
@@ -163,9 +178,42 @@
 		</button>
 		<div class="collapse" id="collapseDoc2">
 			<div class="documents-list">
-				<a class="document-button" href="#">DOWNLOAD SOMETHING?</a>
-				<a class="document-button" href="#">DOWNLOAD SOMETHING?</a>
-				<a class="document-button" href="#">DOWNLOAD SOMETHING?</a>
+				<a class="document-button" href="#">
+					SERGEANT-AT-ARMS APP
+					<p>
+						<strong>What is an SAA?</strong>
+						</br>
+						SAA stands for Sergeant-At-Arms. To ensure wholesome safety at this year's District Convention, SAAs volunteers will be needed during the event! Clubs are required to provide SAAs if they bring 4 or more registered attendees to this district event. For every 4 attendees whom a club brings, that club is required to provide 1 SAA volunteer.
+						</br>
+						Example: 20 attendees = 5 SAAs.
+						</br>
+						</br>
+						<strong>Why you should be an SAA?</strong>
+						</br>
+						An SAA serves as a volunteer during District Convention to make sure that attendees are safe, aware, and reminded of the Code of Conduct and Dress Code and other hotel and convention rules and that they are enjoying this district event. SAAs will be assigned a shift that they must carry out. Upon completion of a shift, they will receive an appreciation gift from the SAA Chair, Chris.
+						</br>
+						</br>
+						Thank you in advance for all your help! Feel free to contact SAA Chair, Chris Tran, at cki.dcon.saachair@gmail.com should any questions or concerns rise.
+					</p>
+				</a>
+				<a class="document-button" href="#">
+					SAA GUIDELINES
+				</a>
+				<a class="document-button" href="#">
+					TALENT SHOW APP
+					<p>
+						The Talent Show is an opportunity for members to show off their talents to the entire district! It takes place during Saturday night of DCON. Anyone can apply for the Talent Show: groups, individual members, etc.! The deadline to submit your application with a link to your talent act is January 19th, 2019 at 10pm. If you have any questions, please reach out to the Talent Show Chair Angelica Ubungen.
+					</p>
+				</a>
+				<a class="document-button" href="#">
+					WORKSHOPS APP
+				</a>
+				<a class="document-button" href="#">
+					PROGRAM ADS APP
+				</a>
+				<a class="document-button" href="#">
+					MEDIA TEAM APP
+				</a>
 			</div>
 		</div>
 	</div><div class="half-column">
@@ -174,9 +222,33 @@
 		</button>
 		<div class="collapse" id="collapseDoc3">
 			<div class="documents-list">
-				<a class="document-button" href="#">DOWNLOAD SOMETHING?</a>
-				<a class="document-button" href="#">DOWNLOAD SOMETHING?</a>
-				<a class="document-button" href="#">DOWNLOAD SOMETHING?</a>
+				<a class="document-button" href="#">
+					CANDIDACY APP
+				</a>
+				<a class="document-button" href="#">
+					CANDIDACY INTEREST + GUIDANCE FORM
+				</a>
+				<a class="document-button" href="#">
+					CANDIDACY INSTRUCTIONS
+				</a>
+				<a class="document-button" href="#">
+					GOVERNOR AGREEMENT
+				</a>
+				<a class="document-button" href="#">
+					SECRETARY AGREEMENT
+				</a>
+				<a class="document-button" href="#">
+					TREASURER AGREEMENT
+				</a>
+				<a class="document-button" href="#">
+					LIEUTENANT GOVERNOR AGREEMENT
+				</a>
+				<a class="document-button" href="#">
+					CODE OF ETHICS
+				</a>
+				<a class="document-button" href="#">
+					CAUCUS RULES
+				</a>
 			</div>
 		</div>
 	</div><div class="half-column">
@@ -185,9 +257,12 @@
 		</button>
 		<div class="collapse" id="collapseDoc4">
 			<div class="documents-list">
-				<a class="document-button" href="#">DOWNLOAD SOMETHING?</a>
-				<a class="document-button" href="#">DOWNLOAD SOMETHING?</a>
-				<a class="document-button" href="#">DOWNLOAD SOMETHING?</a>
+				<a class="document-button" href="#">
+					PACKING LIST
+				</a>
+				<a class="document-button" href="#">
+					DRIVING DIRECTIONS
+				</a>
 			</div>
 		</div>
 	</div>
@@ -201,7 +276,7 @@
 </div>
 
 <div class="section" id="faq">
-	<div class="content">
+	<div class="content" id="faq-body">
 	
 	<h2>Frequently Asked Questions</h2>
 	
@@ -243,12 +318,24 @@
 			</div>
 		</div>
 		<div class="card"  id="faq-card">
-			<div class="card-header" id="headingFour">
+			<div class="card-header" id="headingThree">
 				<button class="btn btn-link" id="faq-question" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-					When will the DCON website be published?
+					QUESTION 4
 				</button>
 			</div>
 			<div class="collapse" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordion">
+				<div class="card-body" id="faq-answer">
+					ANSWER: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus nibh eget rutrum tristique. Nulla facilisi. Duis et mauris in dui posuere viverra eget ac risus. Cras vitae mollis eros. Maecenas lobortis nisl vitae magna porta, non blandit dui ultricies. Duis at maximus felis. Donec ultrices tincidunt mi. Mauris eget lectus et mi iaculis dapibus. Mauris vitae sapien neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla lobortis vestibulum pulvinar. In id diam quis leo ornare mattis. Ut dapibus euismod sem, ut pretium ligula lacinia eu. Proin eu risus justo. Duis quis lacinia diam, vitae porttitor mi.
+				</div>
+			</div>
+		</div>
+		<div class="card"  id="faq-card">
+			<div class="card-header" id="headingFour">
+				<button class="btn btn-link" id="faq-question" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+					When will the DCON website be published?
+				</button>
+			</div>
+			<div class="collapse" id="collapseFive" aria-labelledby="headingFive" data-parent="#accordion">
 				<div class="card-body" id="faq-answer">
 					ANSWER: Ideally, the website's layout and design will be ready to go by the beginning of fall, or at the latest, by FTC. DCON is to be announced officially after FTC and advertised then, so the website is expected to be ready for that. A lot of elements still need to be made, including the actual design for the Announcements and Timeline section.</br></br>If you have any concerns about the website not being ready yet, let Braden know since he has so much time! Stay frosty, friends.
 				</div>
@@ -264,11 +351,23 @@
 </div>
 
 <div class="section" id="committee">
-	<div class="content">
+	<div class="content" id="committee-body">
 
 	<h2>DCON Committee</h2>
 
 	<div class="qtr-column">
+		<img src="assets/img/animals/pig-face_1f437.png" style="width:50%; height:auto;">
+		<p>Mr. Piggy</p>
+	</div><div class="qtr-column">
+		<img src="assets/img/animals/pig-face_1f437.png" style="width:50%; height:auto;">
+		<p>Mr. Piggy</p>
+	</div><div class="qtr-column">
+		<img src="assets/img/animals/pig-face_1f437.png" style="width:50%; height:auto;">
+		<p>Mr. Piggy</p>
+	</div><div class="qtr-column">
+		<img src="assets/img/animals/pig-face_1f437.png" style="width:50%; height:auto;">
+		<p>Mr. Piggy</p>
+	</div><div class="qtr-column">
 		<img src="assets/img/animals/pig-face_1f437.png" style="width:50%; height:auto;">
 		<p>Mr. Piggy</p>
 	</div><div class="qtr-column">
@@ -285,6 +384,7 @@
 	</div>
 </div>
 
+<!---
 <div class="section space-filler">
 	<p>SPACE FILLER</p>
 </div>
@@ -295,6 +395,7 @@
 	</a>
 	<audio id="pig-sfx" src="assets/sfx/pig-squeal.mp3" type="audio/mp3"></audio>
 </div>
+--->
 
 </body>
 
