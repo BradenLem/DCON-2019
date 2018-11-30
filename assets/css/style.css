@@ -24,7 +24,7 @@ h2 {
 }
 
 p {
-	text-align: justify;
+	text-align: left;
 	
 	margin-bottom: 16px;
 }
@@ -35,10 +35,10 @@ img {
 }
 
 div.content {
-	max-width: 960px;
+	max-width: 1000px;
 	margin: 0 auto;
 	
-	padding: 20px 40px 30px 40px;
+	padding: 20px 30px 30px 30px;
 }
 
 
