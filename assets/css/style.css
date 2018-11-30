@@ -397,8 +397,9 @@ div.content {
 
 /* IDs used for sections */
 #main {
-	background-image: url(../img/animals/cow-emoji.png);
-	background-repeat: repeat;
+	background-image: url(../img/bgs/sunny_hills.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-color: white;
 }
 
@@ -409,7 +410,7 @@ div.content {
 }
 
 #announcements {
-	background-image: url(../img/animals/cow-emoji.png);
+	background-image: url(../img/bgs/simple_indigo_gingham.png);
 	background-repeat: repeat;
 	background-color: white;
 }
@@ -419,7 +420,7 @@ div.content {
 }
 
 #timeline {
-	background-image: url(../img/animals/cow-emoji.png);
+	background-image: url(../img/bgs/simple_indigo_gingham.png);
 	background-repeat: repeat;
 	background-color: white;
 }
@@ -429,7 +430,7 @@ div.content {
 }
 
 #documents {
-	background-image: url(../img/animals/cow-emoji.png);
+	background-image: url(../img/bgs/simple_indigo_gingham.png);
 	background-repeat: repeat;
 	background-color: white;
 	
@@ -441,7 +442,7 @@ div.content {
 }
 
 #faq {
-	background-image: url(../img/animals/cow-emoji.png);
+	background-image: url(../img/bgs/simple_indigo_gingham.png);
 	background-repeat: repeat;
 	background-color: white;
 }
@@ -451,7 +452,7 @@ div.content {
 }
 
 #committee {
-	background-image: url(../img/animals/cow-emoji.png);
+	background-image: url(../img/bgs/simple_indigo_gingham.png);
 	background-repeat: repeat;
 	background-color: white;
 	
@@ -460,4 +461,28 @@ div.content {
 
 #committee-body {
 	background-color: #aaa292;
+}
+
+#end {
+	background-image: url(../img/bgs/sunny_hills.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: white;
+	
+	text-align: center;
+	
+	display: table;
+	height: 500px;
+}
+
+#end p {
+	display: table-cell;
+	vertical-align: middle;
+	
+	font-size: 70px;
+	line-height: 80px;
+	text-shadow: 2px 2px 2px #555555, -2px -2px 1px #bbbbbb;
+	text-align: center;
+	
+	font-family: 'Grand Hotel', cursive;
 }
