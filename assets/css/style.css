@@ -8,8 +8,8 @@ body {
 }
 
 h1 {
-	font-size: 100px;
-	line-height: 90px;
+	font-size: 70px;
+	line-height: 80px;
 	text-align: center;
 	
 	font-family: 'Grand Hotel', cursive;
@@ -35,7 +35,7 @@ img {
 }
 
 div.content {
-	max-width: 1000px;
+	max-width: 1100px;
 	margin: 0 auto;
 	
 	padding: 20px 30px 30px 30px;
@@ -47,6 +47,10 @@ div.content {
 	min-height: 80px;
 	background: url("../img/red-stripes.png") no-repeat bottom;
 	background-size: 100%;
+}
+
+.navbar-header {
+	display: inline-block;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -79,9 +83,12 @@ div.content {
 	height: 70px;
 }
 
+.navbar-brand img {
+	display: inline-block;
+}
+
 .navbar-fixed-top, .navbar-collapse {
 	border-width: 0px !important;
-	text-align: center;
 }
 
 .navbar-toggle {
@@ -99,8 +106,6 @@ div.content {
 
 #emblem {
 	background: transparent !important;
-	
-	float: right !important;
 }
 
 /* FlipClock formatting */
@@ -110,7 +115,7 @@ div.content {
 
 .countdown {
 	margin: auto;
-	margin-top: 90px;
+	margin-top: 10px;
 	margin-bottom: 80px;
 	max-width: 90%;
 	display: table;
@@ -120,9 +125,25 @@ div.content {
 	text-align: center;
 }
 
-.flip-clock-wrapper ul, .flip-clock-wrapper span {
+.flip-clock-wrapper ul li {
+	line-height: 74px;
+}
+
+.flip-clock-wrapper span {
 	display: inline-block;
 	float: none;
+}
+
+.flip-clock-wrapper ul {
+	display: inline-block;
+	float: none;
+		
+	width: 50px;
+	height: 75px;
+}
+
+.flip-clock-wrapper div div.inn {
+	font-size: 50px !important;
 }
 
 /* Carousel formatting */
@@ -282,7 +303,7 @@ div.content {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	
-	text-align: justify;
+	text-align: left;
 }
 
 /* Decorative elements */
@@ -330,7 +351,7 @@ div.content {
 	text-align: center;
 	
 	width: 50%;
-	min-width: 300px;
+	min-width: 250px;
 	
 	margin-top: 20px;
 	padding-left: 20px;
