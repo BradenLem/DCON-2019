@@ -1,6 +1,6 @@
 /* General element formatting */
 body {
-	color: #000000;
+	color: #231f20;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
 
@@ -42,6 +42,23 @@ div.content {
 	margin: 0 auto;
 	
 	padding: 20px 40px 40px 30px;
+}
+
+.comm-email {
+	margin-top: 50px;
+	padding-bottom: 10px;
+	
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.comm-email:hover {
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 
@@ -149,68 +166,6 @@ div.content {
 	font-size: 50px !important;
 }
 
-/* Carousel formatting */
-.carousel {
-	position: relative;
-	
-	margin-top: 30px;
-}
-
-.carousel-indicators>li {
-	border: 2px solid #888888;
-	border-radius: 10px;
-}
-
-.carousel-caption {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
-
-.caption-center {	
-	position: absolute;
-	top: 50%;
-	bottom: initial;
-	left: 15%;
-	right: 15%;
-	transform: translateY(-50%);
-}
-
-.caption-center>h3, .caption-center>p {
-	font-family: 'Ubuntu', sans-serif;
-	text-align: center;
-}
-
-.carousel-control {
-	-webkit-transition-duration: 0.3s;
-	
-	text-align: center;
-	
-	opacity: 0.5;
-	
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	width: 10%;
-}
-
-.carousel-control:hover {
-	opacity: 1;
-}
-
-.carousel-control.left {
-	background-image: linear-gradient(to right,rgba(0,0,0,.2) 0,rgba(0,0,0,.0001) 100%);
-}
-
-.carousel-control.right {
-	background-image: linear-gradient(to left,rgba(0,0,0,.2) 0,rgba(0,0,0,.0001) 100%);
-	
-	right: 0;
-}
-
 /* Document buttons */
 #documents-section {
 	-webkit-transition-duration: 0.3s;
@@ -259,6 +214,7 @@ div.content {
 
 	color: #ffffff;
 	font-weight: bold;
+	text-transform: uppercase;
 
 	display: block;
 	margin-bottom: 10px;
@@ -278,8 +234,17 @@ div.content {
 .document-button p {
 	font-size: 12px;
 	font-weight: normal;
+	text-align: center;
+	text-transform: none;
 	
 	margin: 10px 10px 0 10px;
+}
+
+.inactive-doc {
+	background-color: rgb(130, 130, 130);
+	
+	pointer-events: none;
+	cursor: default;
 }
 
 /* Card/Collapse elements */
@@ -338,6 +303,21 @@ div.content {
 	text-align: left;
 }
 
+.timeline-card {
+	display: inline-block;
+	box-sizing: border-box;
+	
+	background-color: rgb(119, 108, 255);
+	
+	border: 2px solid rgb(0, 0, 0, 0.5);
+	border-radius: 4px;
+	
+	min-height: 130px;
+	width: 100%;
+	vertical-align: middle;
+	padding: 10px 20px 10px 20px;
+}
+
 /* Organizational divs */
 .section {
 	background-color: #0034da;
@@ -392,10 +372,39 @@ div.content {
 	min-width: 200px;
 	
 	margin-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 	
 	vertical-align: top;
+}
+
+.qtr-column {
+	display: inline-block;
+	box-sizing: border-box;
+	
+	color: #231f20;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	
+	width: 25%;
+	min-width: 200px;
+	
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	vertical-align: middle;
+}
+
+.qtr-column p {
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
 .center-column {
@@ -465,6 +474,7 @@ div.content {
 }
 
 #announcements-body h3 {
+	color: #231f20;
 	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -481,6 +491,8 @@ div.content {
 	background-image: url(../img/bgs/simple_indigo_gingham.png);
 	background-repeat: repeat;
 	background-color: rgb(119, 108, 255);
+	
+	text-align: center;
 }
 
 #timeline-body {
@@ -534,7 +546,7 @@ div.content {
 	text-align: center;
 	
 	display: table;
-	height: 500px;
+	height: 650px;
 }
 
 #end p {
@@ -547,21 +559,4 @@ div.content {
 	text-align: center;
 	
 	font-family: 'Grand Hotel', cursive;
-}
-
-.comm-email {
-	margin-top: 50px;
-	padding-bottom: 10px;
-	
-	color: white;
-	font-size: 12px;
-	font-weight: bold;
-	text-align: center;
-}
-
-.comm-email:hover {
-	color: white;
-	font-size: 12px;
-	font-weight: bold;
-	text-decoration: underline;
 }
