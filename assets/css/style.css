@@ -442,7 +442,7 @@ div.content {
 	background-image: url(../img/bgs/sunny_hills.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: white;
+	background-color: rgb(247, 241, 194);
 }
 
 #main-body {
@@ -454,7 +454,7 @@ div.content {
 #announcements {
 	background-image: url(../img/bgs/simple_indigo_gingham.png);
 	background-repeat: repeat;
-	background-color: white;
+	background-color: rgb(119, 108, 255);
 }
 
 #announcements-body {
@@ -464,7 +464,7 @@ div.content {
 #timeline {
 	background-image: url(../img/bgs/simple_indigo_gingham.png);
 	background-repeat: repeat;
-	background-color: white;
+	background-color: rgb(119, 108, 255);
 }
 
 #timeline-body {
@@ -476,7 +476,7 @@ div.content {
 	background-position: -40px 0px;
 	background-size: 25%;
 	background-repeat: repeat;
-	background-color: white;
+	background-color: rgb(207, 51, 72);
 	
 	text-align: center;
 }
@@ -490,7 +490,7 @@ div.content {
 	background-position: -40px 0px;
 	background-size: 40%;
 	background-repeat: repeat;
-	background-color: #efe3d2;
+	background-color: rgb(239, 227, 210);
 }
 
 #faq-body {
@@ -500,7 +500,7 @@ div.content {
 #committee {
 	background-image: url(../img/bgs/simple_indigo_gingham.png);
 	background-repeat: repeat;
-	background-color: white;
+	background-color: rgb(119, 108, 255);
 	
 	text-align: center;
 }
