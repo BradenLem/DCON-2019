@@ -408,6 +408,13 @@ div.content {
 	vertical-align: top;
 }
 
+.divider {
+	background: url(../img/bgs/Wood_Panel_Day.png);
+	background-size: auto 128px;
+	
+	height: 64px;
+}
+
 .space-filler {
 	background-color: #888888;
 
@@ -462,7 +469,8 @@ div.content {
 }
 
 #documents {
-	background-image: url(../img/bgs/simple_indigo_gingham.png);
+	background-image: url(../img/bgs/Gingham-01.png);
+	background-size: 15%;
 	background-repeat: repeat;
 	background-color: white;
 	
@@ -474,7 +482,8 @@ div.content {
 }
 
 #faq {
-	background-image: url(../img/bgs/simple_indigo_gingham.png);
+	background-image: url(../img/bgs/Milk-01.png);
+	background-size: 25%;
 	background-repeat: repeat;
 	background-color: white;
 }
