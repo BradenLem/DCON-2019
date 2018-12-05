@@ -38,7 +38,7 @@ div.content {
 	max-width: 1100px;
 	margin: 0 auto;
 	
-	padding: 20px 30px 30px 30px;
+	padding: 20px 40px 40px 30px;
 }
 
 
@@ -209,8 +209,37 @@ div.content {
 }
 
 /* Document buttons */
+#documents-section {
+	-webkit-transition-duration: 0.3s;
+	
+	background-color: rgb(220, 109, 124);
+	background-clip: border-box;
+	
+	border: 2px solid rgb(0, 0, 0, 0.5);
+	border-radius: 4px;
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	
+	min-width: 80%;
+	white-space: normal;
+	
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#documents-section:hover {
+	text-decoration: none;
+	
+	color: #ffffff;
+}
+
 .documents-list {
-	border: 1px solid black;
+	border: 1px solid rgb(0, 0, 0, 0.25);
 	
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -223,7 +252,7 @@ div.content {
 .document-button {
 	-webkit-transition-duration: 0.3s;
 
-	background-color: #aaaaaa;
+	background-color: rgb(220, 109, 124);
 
 	color: #ffffff;
 	font-weight: bold;
@@ -232,12 +261,11 @@ div.content {
 	margin-bottom: 10px;
 	padding: 10px;
 	
-	border-radius: 16px;
-	box-shadow: 2px 2px 8px #414141;
+	border-radius: 8px;
 }
 
 .document-button:hover {
-	background-color: #dddddd;
+	background-color: rgb(236, 169, 179);
 
 	color: #ffffff;
 	font-weight: bold;
@@ -252,11 +280,12 @@ div.content {
 }
 
 /* Card/Collapse elements */
+
 #faq-card {
-	background-color: #b9a4bc;
+	background-color: rgb(246, 239, 229);
 	background-clip: border-box;
 	
-	border: 1px solid #000;
+	border: 1px solid rgb(0, 0, 0, 0.5);
 	border-radius: 4px;
 	
 	margin-bottom: 10px;
@@ -265,7 +294,7 @@ div.content {
 #faq-question {
 	-webkit-transition-duration: 0.3s;
 	
-	background-color: #b9a4bc;
+	background-color: rgb(246, 239, 229);
 	border-radius: 4px;
 
 	padding-left: 20px;
@@ -284,7 +313,7 @@ div.content {
 #faq-question:hover {
 	text-decoration: none;
 	
-	color: #ffffff;
+	color: rgb(181, 169, 151);
 }
 
 #faq-question:focus {
@@ -293,8 +322,8 @@ div.content {
 }
 
 #faq-answer {
-	background-color: #dfd7e0;
-	border-top: 2px solid black;
+	background-color: rgb(244, 240, 235);
+	border-top: 2px solid rgb(0, 0, 0, 0.5);
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
 	
@@ -304,32 +333,6 @@ div.content {
 	padding-bottom: 20px;
 	
 	text-align: left;
-}
-
-/* Decorative elements */
-.animal-sound {
-	transition: transform 0.3s;
-	
-	background-color: Transparent;
-	border: none;
-	outline: none;
-	
-	width: auto;
-	padding-left: 0;
-	padding-right: 0;
-	transform: scale(0.95);
-	
-	display: inline-block;
-}
-
-.animal-sound:hover {
-	cursor: pointer;
-	
-	transform: scale(1.00);
-}
-
-.animal-sound:active {
-	transform: scale(0.90);
 }
 
 /* Organizational divs */
@@ -443,7 +446,7 @@ div.content {
 }
 
 #main-body {
-	background-color: #ed5d47;
+	background-color: rgb(247, 241, 194, 0.9);
 	
 	padding-top: 150px;
 }
@@ -455,7 +458,7 @@ div.content {
 }
 
 #announcements-body {
-	background-color: #72c176;
+	background-color: rgb(119, 108, 255, 0.9);
 }
 
 #timeline {
@@ -465,12 +468,13 @@ div.content {
 }
 
 #timeline-body {
-	background-color: #f9d55e;
+	background-color: rgb(119, 108, 255, 0.9);
 }
 
 #documents {
 	background-image: url(../img/bgs/Gingham-01.png);
-	background-size: 15%;
+	background-position: -40px 0px;
+	background-size: 25%;
 	background-repeat: repeat;
 	background-color: white;
 	
@@ -478,18 +482,19 @@ div.content {
 }
 
 #documents-body {
-	background-color: #7c98d6;
+	background-color: rgb(207, 51, 72, 0.9);
 }
 
 #faq {
-	background-image: url(../img/bgs/Milk-01.png);
-	background-size: 25%;
+	background-image: url(../img/bgs/milk_shelves.png);
+	background-position: -40px 0px;
+	background-size: 40%;
 	background-repeat: repeat;
-	background-color: white;
+	background-color: #efe3d2;
 }
 
 #faq-body {
-	background-color: #b991bf;
+	background-color: rgb(239, 227, 210, 0.9);
 }
 
 #committee {
@@ -501,7 +506,7 @@ div.content {
 }
 
 #committee-body {
-	background-color: #aaa292;
+	background-color: rgb(119, 108, 255, 0.9);
 }
 
 #end {
@@ -526,4 +531,21 @@ div.content {
 	text-align: center;
 	
 	font-family: 'Grand Hotel', cursive;
+}
+
+.comm-email {
+	margin-top: 50px;
+	padding-bottom: 10px;
+	
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.comm-email:hover {
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
 }
