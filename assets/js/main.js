@@ -4,7 +4,7 @@ $(document).ready(function() {
 	/*
 	var href;
 	if (7 <= currentTime && currentTime < 20) {
-		href = "style-day.css";
+		href = "style.css";
 	}
 	else {
 		href = "style-night.css";
@@ -41,13 +41,5 @@ $(document).ready(function() {
 			}, 500);
 
 	});
-	
-	// Tooltips toggle
-	$('[data-toggle="popover"]').popover();
-	
-	// Carousel initiate
-	$('.carousel').carousel({
-		interval: 5000
-	})
 
 });
