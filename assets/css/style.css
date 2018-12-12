@@ -556,10 +556,10 @@ video {
 }
 
 #end {
-	background-image: url(../img/bgs/Night-Sky-01.png);
+	background-image: url(../img/bgs/empty_hills.png);
 	background-repeat: repeat-y;
 	background-size: 100%;
-	background-color: black;
+	background-color: rgb(247, 241, 194);
 	
 	text-align: center;
 	
