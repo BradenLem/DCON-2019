@@ -458,7 +458,6 @@ video {
 
 /* IDs used for sections */
 #main {
-	background-image: url(../img/bgs/sunny_hills.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: rgb(247, 241, 194);
@@ -557,8 +556,8 @@ video {
 
 #end {
 	background-image: url(../img/bgs/empty_hills.png);
-	background-repeat: repeat-y;
-	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-color: rgb(247, 241, 194);
 	
 	text-align: center;
