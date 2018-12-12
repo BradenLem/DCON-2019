@@ -1,5 +1,7 @@
 /* General element formatting */
 body {
+	background-color: rgb(247, 241, 194);
+	
 	color: #231f20;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
@@ -319,8 +321,13 @@ div.content {
 }
 
 /* Organizational divs */
+video {
+	margin: 0;
+	padding-top: 80px;
+}
+
 .section {
-	background-color: #0034da;
+	background-color: rgb(247, 241, 194);
 
 	margin: 0px;
 	
@@ -457,10 +464,17 @@ div.content {
 	background-color: rgb(247, 241, 194);
 }
 
+#main-section {
+	background-image: url(../img/bgs/sunny_hills.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgb(247, 241, 194);
+}
+
 #main-body {
 	background-color: rgb(247, 241, 194, 0.9);
 	
-	padding-top: 150px;
+	padding-top: 70px;
 }
 
 #announcements {
