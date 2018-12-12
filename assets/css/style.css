@@ -250,7 +250,6 @@ div.content {
 }
 
 /* Card/Collapse elements */
-
 #faq-card {
 	background-color: rgb(246, 239, 229);
 	background-clip: border-box;
@@ -321,7 +320,7 @@ div.content {
 }
 
 /* Organizational divs */
-video {
+.banner {
 	margin: 0;
 	padding-top: 80px;
 }
