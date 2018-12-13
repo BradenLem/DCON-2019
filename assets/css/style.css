@@ -457,8 +457,10 @@ div.content {
 
 /* IDs used for sections */
 #main {
+	background-image: url(../video/DCON-banner-still.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-position: 0px 80px;
+	background-size: 100%;
 	background-color: rgb(247, 241, 194);
 }
 
@@ -502,9 +504,7 @@ div.content {
 
 #timeline {
 	background-image: url(../img/bgs/Sleepy-animals-01.png);
-	background-position: 0px -100px;
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-color: rgb(247, 241, 194);
 	
 	text-align: center;
