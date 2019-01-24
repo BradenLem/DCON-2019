@@ -168,6 +168,20 @@ div.content {
 	font-size: 50px !important;
 }
 
+/* Announcements */
+.announcement-center {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.announcement-center iframe {
+	max-width: 400px;
+}
+
+.announcement-img {
+	max-width: 400px;
+}
+
 /* Document buttons */
 #documents-section {
 	-webkit-transition-duration: 0.3s;
